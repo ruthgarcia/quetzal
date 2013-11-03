@@ -10,7 +10,7 @@ When(/^lleno email con "(.*?)"$/) do |arg1|
   pending # express the regexp above with the code you wish you had
 end
 
-When(/^lleno contraseña con "(.*?)"$/) do |arg1|
+When(/^lleno contrasena con "(.*?)"$/) do |arg1|
   pending # express the regexp above with the code you wish you had
 end
 

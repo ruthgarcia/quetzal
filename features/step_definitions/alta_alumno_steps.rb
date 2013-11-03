@@ -22,11 +22,11 @@ When(/^lleno Confirmar Email con "(.*?)"$/) do |arg1|
   pending # express the regexp above with the code you wish you had
 end
 
-When(/^lleno Contraseña con "(.*?)"$/) do |arg1|
+When(/^lleno Contrasena con "(.*?)"$/) do |arg1|
   pending # express the regexp above with the code you wish you had
 end
 
-When(/^lleno Confirmar Contraseña con "(.*?)"$/) do |arg1|
+When(/^lleno Confirmar Contrasena con "(.*?)"$/) do |arg1|
   pending # express the regexp above with the code you wish you had
 end
 
@@ -34,8 +34,7 @@ When(/^confirmo la nueva Alta de Alumno con el boton crear$/) do
   pending # express the regexp above with the code you wish you had
 end
 
-Then(/^Yo debería ver "(.*?)"$/) do |arg1|
+Then(/^Yo deberia ver "(.*?)"$/) do |arg1|
   pending # express the regexp above with the code you wish you had
 end
-
 
