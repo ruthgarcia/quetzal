@@ -20,11 +20,11 @@ RSpec.configure do |conf|
   conf.include Rack::Test::Methods
   DataMapper::Logger.new($stdout, :all)
   DataMapper.auto_migrate!
-  user = User.create(:email => 'offerer@test.com',
-                   :name => 'Offerer', 
-                   :password => "Passw0rd!")
+  docente = Alumno.create(:email => 'docente@unq.com',
+                   :nombre => 'Docente', 
+                   :contrasena => "Admin0n!")
 end
 
 def app
-  JobVacancy::App.tap { |app|  }
+  Resumenes::App.tap { |app|  }
 end

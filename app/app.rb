@@ -1,4 +1,4 @@
-module JobVacancy
+module Resumenes
   class App < Padrino::Application
     register Padrino::Rendering
     register Padrino::Mailer

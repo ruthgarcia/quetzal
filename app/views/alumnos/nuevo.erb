@@ -1,0 +1,17 @@
+<h1>Alta Alumno</h1>
+<% form_for(@alumno, '/alumnos/crear') do |f| %> 
+	<%= f.label :nombre %>
+	<%= f.text_field :nombre %>
+	<%= f.label :apellido %>
+	<%= f.text_field :apellido %>
+	<%= f.label :email %>
+ 	<%= f.text_field :email %>
+	<%= f.label :confirmar_email %>
+ 	<%= f.text_field :confirmar_email %>
+  	<%= f.label :contrasena %>
+  	<%= f.password_field :contrasena %>
+  	<%= f.label :confirmar_contrasena %>
+  	<%= f.password_field :confirmar_contrasena %>
+  <br/>
+  <%= f.submit "Crear", :class => "btn btn-primary" %>
+<% end %>

@@ -1,0 +1,9 @@
+<h1>Iniciar Sesion</h1>
+<% form_for(@alumno, '/sesiones/crear') do |f| %>
+	<%= f.label :email %>
+ 	<%= f.text_field :email %>
+  	<%= f.label :contrasena %>
+  	<%= f.password_field :contrasena %>
+  <br/>
+  <%= f.submit "Iniciar", :class => "btn btn-primary" %>
+<% end %>

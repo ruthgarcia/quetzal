@@ -1,32 +1,17 @@
-Given(/^que estoy dado de alta como Alumno$/) do
-  pending # express the regexp above with the code you wish you had
-end
-
 When(/^navego en la pagina de inicio de sesion$/) do
-  pending # express the regexp above with the code you wish you had
+  visit '/iniciar_sesion'
 end
 
-When(/^lleno email con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+When(/^lleno email con "(.*?)"$/) do |email_almn|
+  fill_in('alumno[email]', :with => email_almn)
 end
 
-When(/^lleno contrasena con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+When(/^lleno contrasena con "(.*?)"$/) do |contrasena_almn|
+  fill_in('alumno[contrasena]', :with => contrasena_almn)
 end
 
 When(/^confirmo el inicio de sesion con el boton iniciar$/) do
-  pending # express the regexp above with the code you wish you had
+  click_button('Iniciar')
 end
 
-Then(/^deberia conseguir ingresar al sistema$/) do
-  pending # express the regexp above with the code you wish you had
-end
-
-When(/^lleno email incorrecto con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
-
-Then(/^no deberia conseguir ingresar al sistema$/) do
-  pending # express the regexp above with the code you wish you had
-end
 

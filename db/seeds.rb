@@ -1,3 +1,5 @@
-user = User.create(:email => 'offerer@test.com',
-									 :name => 'Offerer', 
-									 :password => "Passw0rd!")
+alumno = Alumno.create(
+			:email => 'docente@unq.com',
+		   	:nombre => 'Docente',
+			:apellido => 'UNQ', 
+		   	:contrasena => "Admin0n!")

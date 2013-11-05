@@ -3,7 +3,7 @@
 <html lang="en-US">
 	<head>
     <meta charset="utf-8">
-		<title>Job Vacancy Board - find the best jobs</title>
+		<title>Gestion de Resumenes EIS</title>
 		<%= stylesheet_link_tag '/assets/application.css' %>
 	</head>
 	<body>
@@ -11,11 +11,11 @@
       <div class="masthead">
       	<div class="container">
       	<div class="app-title">
-      	<h1>Job Vacancy Board</h1>
+      	<h1>Gestion de Resumenes EIS</h1>
       	</div>
       	<div class="profile"> 
-						<% if signed_in? %>
-							<%= current_user.email %>
+						<% if iniciar_sesion? %>
+							<%= alumno_actual.email %>
 						<% end %>
 				</div>
 				</div>
@@ -23,18 +23,17 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                <li><%= link_to 'Home', url_for(:home, :index) %></li>
-                <li><%= link_to 'Job offers', url_for(:job_offers, :latest) %></li>
+                <li><%= link_to 'Inicio', url_for(:inicio, :index) %></li>
+                <li><%= link_to 'Resumenes', url_for(:resumenes, :latest) %></li>
                 
-                <% if signed_in? %>	
-                <li><%= link_to 'New Offer', url_for(:job_offers, :new) %></li>
-                <li><%= link_to 'My Offers', url_for(:job_offers, :my) %></li>
+                <% if iniciar_sesion? %>	
+                <li><%= link_to 'Alta Alumno', url_for(:alumnos, :nuevo) %></li>
 
 								<% end %>
-								<% if signed_in? %>	
-								<li><%= link_to 'Logout', url_for(:sessions, :destroy) %></li>
+								<% if iniciar_sesion? %>	
+								<li><%= link_to 'Cerrar Sesion', url_for(:sesiones, :cerrar_sesion) %></li>
 								<% else%>	
-								<li><%= link_to 'Login', url_for(:sessions, :login) %></li>
+								<li><%= link_to 'Iniciar Sesion', url_for(:sesiones, :iniciar_sesion) %></li>
 								<% end %>
               </ul>
             </div>
@@ -53,7 +52,7 @@
       <!-- footer -->
       <div class="footer">
       	<hr/>
-        <p>Job Vacancy Board by Kleer | 2013</p>
+        <p>Universidad Nacinal de Quilmes | 2013</p>
       </div>
 
     </div> 
