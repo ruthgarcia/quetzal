@@ -3,11 +3,11 @@ Given(/^Que acceda a la pagina de Alta Alumno$/) do
 end
 
 When(/^Yo lleno Nombre con "(.*?)"$/) do |nombre_almn|
-  fill_in('alumno[email]', :with => nombre_almn)
+  fill_in('alumno[nombre]', :with => nombre_almn)
 end
 
 When(/^lleno Apellido con "(.*?)"$/) do |apellido_almn|
-  fill_in('alumno[email]', :with => apellido_almn)
+  fill_in('alumno[apellido]', :with => apellido_almn)
 end
 
 When(/^lleno Email con "(.*?)"$/) do |email_almn|
@@ -19,11 +19,11 @@ When(/^lleno Confirmar Email con "(.*?)"$/) do |email_almn|
 end
 
 When(/^lleno Contrasena con "(.*?)"$/) do |contrasena_almn|
-  fill_in('alumno[email]', :with => contrasena_almn)
+  fill_in('alumno[contrasena]', :with => contrasena_almn)
 end
 
 When(/^lleno Confirmar Contrasena con "(.*?)"$/) do |contrasena_almn|
-  fill_in('alumno[email]', :with => contrasena_almn)
+  fill_in('alumno[contrasena]', :with => contrasena_almn)
 end
 
 When(/^confirmo la nueva Alta de Alumno con el boton crear$/) do

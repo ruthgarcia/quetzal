@@ -25,7 +25,7 @@ describe Alumno do
 	  	alumno.valid?.should be_false
 	  end
 
-	 it 'Deberia ser false cuando el apelido esta en blanco' do
+	 it 'Deberia ser false cuando el apellido esta en blanco' do
 		alumno.nombre = 'Juan'
 	  	alumno.email = 'jlpz@unq.com'
 	  	alumno.contrasena = 'a_secure_passWord!'

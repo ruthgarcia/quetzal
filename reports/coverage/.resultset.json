@@ -87,24 +87,24 @@
         1,
         null,
         1,
-        1,
+        10,
         null,
         null,
         1,
-        1,
-        1,
-        1,
+        12,
+        6,
+        5,
         null,
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        3,
+        3,
+        2,
         null,
         null,
         1,
-        0,
+        2,
         null,
         null,
         null
@@ -132,8 +132,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        2,
+        2,
         null,
         null,
         1,
@@ -163,7 +163,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null
@@ -274,7 +274,7 @@
         null,
         null,
         1,
-        0,
+        3,
         null,
         null,
         1,
@@ -287,13 +287,13 @@
         null,
         null,
         1,
-        0,
+        3,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1383604483
+    "timestamp": 1383760083
   },
   "Cucumber Features": {
     "coverage": {
@@ -481,6 +481,6 @@
         null
       ]
     },
-    "timestamp": 1383631175
+    "timestamp": 1383760384
   }
 }
