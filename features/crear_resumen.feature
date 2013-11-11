@@ -9,7 +9,7 @@ Feature: Resumen Texto
     When Yo lleno la fecha con "2013-11-06"
 	  And lleno Numero de clase con "20"
 	  And lleno Ausentes con "Juanito, Luisito"
-	  And lleno la Descripcion con "Bla bla bla"
+	  And lleno la Descripcion con "En la clase se hablo de ..."
     And confirmo el nuevo resumen con el boton crear  
    
    Scenario: Lista de resumenes

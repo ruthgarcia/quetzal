@@ -14,8 +14,9 @@ When(/^lleno Ausentes con "(.*?)"$/) do |ausentes|
   fill_in('resumen[ausentes]', :with => ausentes)
 end
 
-When(/^lleno la Descripcion con "(.*?)"$/) do |descripcion|
-  fill_in('resumen[descripcion]', :with => descripcion)
+When(/^lleno la Descripcion con "(.*?)"$/) do
+  @descripcion = 'En la clase se hablo de ...'
+  fill_in('resumen[descripcion]', :with => @descripcion)
 end
 
 When(/^confirmo el nuevo resumen con el boton crear$/) do
@@ -23,7 +24,8 @@ When(/^confirmo el nuevo resumen con el boton crear$/) do
 end
 
 Given(/^que estoy en la pagina de lista de resumenes$/) do
-  pending # express the regexp above with the code you wish you had
+  visit "/resumenes/lista"
+  page.should have_content(@descripcion)
 end
 
 Then(/^ver las columnas de los resumenes$/) do
