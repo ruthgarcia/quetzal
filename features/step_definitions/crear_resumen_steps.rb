@@ -1,28 +1,25 @@
-Given(/^Estoy dado de alta como alumno$/) do
-  pending # express the regexp above with the code you wish you had
+Given(/^Que acceda a la pagina de Crear resumen$/) do
+  visit '/crear_resumen'
 end
 
-Given(/^Que acceda a la pagina de crear resumen texto$/) do
-  pending # express the regexp above with the code you wish you had
+When(/^Yo lleno la fecha con "(.*?)"$/) do |fecha|
+  fill_in('resumen[fecha]', :with => fecha)
 end
 
-When(/^Yo lleno la fecha con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+When(/^lleno Numero de clase con "(.*?)"$/) do |num_clase|
+  fill_in('resumen[num_clase]', :with => num_clase)
 end
 
-When(/^lleno Numero de clase con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+When(/^lleno Ausentes con "(.*?)"$/) do |ausentes|
+  fill_in('resumen[ausentes]', :with => ausentes)
 end
 
-When(/^lleno Ausentes con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
-
-When(/^lleno la Descripcion con "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+When(/^lleno la Descripcion con "(.*?)"$/) do |descripcion|
+  fill_in('resumen[descripcion]', :with => descripcion)
 end
 
 When(/^confirmo el nuevo resumen con el boton crear$/) do
-  pending # express the regexp above with the code you wish you had
+   click_button('Crear')
 end
+
 

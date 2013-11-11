@@ -1,0 +1,11 @@
+<h1>Crear Resumen</h1>
+<% form_for(@resumen, '/resumenes/crear') do |f| %> 
+	<%= f.label :fecha %> <%= f.text_field :fecha %>	
+	<%= f.label :numero_de_clase %> <%= f.text_field :num_clase %> 	
+	<%= f.label :ausentes%> <%= f.text_field :ausentes %> 	
+	<%= f.label :descripcion %> <%= f.text_area :descripcion %>
+ 	  	
+  <br/>
+  <%= f.submit "Crear", :class => "btn btn-primary" %>
+  <%= f.submit "Cancelar", :class => "btn btn-primary" %>
+<% end %>
