@@ -22,4 +22,11 @@ When(/^confirmo el nuevo resumen con el boton crear$/) do
    click_button('Crear')
 end
 
+Given(/^que estoy en la pagina de lista de resumenes$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then(/^ver las columnas de los resumenes$/) do
+  pending # express the regexp above with the code you wish you had
+end
 
