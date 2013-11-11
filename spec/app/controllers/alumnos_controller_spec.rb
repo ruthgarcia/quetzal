@@ -10,7 +10,7 @@ describe "AlumnosController" do
 	    last_response.should be_ok
 	  end
 
-	  it 'debe enviar a alumnos/nuevo' do
+	  it 'deberia enviar a alumnos/nuevo' do
 	  	Resumenes::App.any_instance.should_receive(:render).with('alumnos/nuevo')
 	  	get '/alta_alumno'
 	  end
