@@ -3,9 +3,9 @@ Given(/^Que acceda a la pagina de Crear resumen$/) do
 end
 
 When(/^Yo creo un resumen$/) do
-  fill_in('resumen[fecha]', :with => '2013-11-11')
-  fill_in('resumen[num_clase]', :with => '23')
-  fill_in('resumen[ausentes]', :with => 'Fulanito')
+  fill_in('resumen[fecha]', :with => fecha)
+  fill_in('resumen[num_clase]', :with => num_clase)
+  fill_in('resumen[ausentes]', :with => ausentes)
   @descripcion = 'En la clase se hablo de ...'
   fill_in('resumen[descripcion]', :with => @descripcion)
 end
