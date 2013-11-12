@@ -5,7 +5,7 @@ migration 2, :crear_resumenes do
       column :fecha, DataMapper::Property::String, :length => 255
       column :num_clase, DataMapper::Property::String, :length => 255
       column :ausentes, DataMapper::Property::String, :length => 255
-      column :descripcion, DataMapper::Property::Text
+      column :descripcion, DataMapper::Property::String, :length => 255
     end
   end
 

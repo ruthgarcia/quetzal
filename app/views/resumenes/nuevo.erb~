@@ -1,8 +1,8 @@
 <h1>Crear Resumen</h1>
 <% form_for(@resumen, '/resumenes/crear') do |f| %> 
-	<%= f.label :fecha %> <%= f.text_field :fecha, :value => "AAAA-MM-DD" %>	
-	<%= f.label :numero_de_clase %> <%= f.text_field :num_clase, :value => "xx" %> 	
-	<%= f.label :ausentes %> <%= f.text_field :ausentes, :value => "Nombre/s" %> 	
+	<%= f.label :fecha_aaaa_mm_dd %> <%= f.text_field :fecha, :value => "AAAA-MM-DD" %>	
+	<%= f.label :numero_de_clase_xx %> <%= f.text_field :num_clase, :value => "xx" %> 	
+	<%= f.label :ausentes_nombres %> <%= f.text_field :ausentes, :value => "Nombre/s" %> 	
 	<%= f.label :descripcion %> 
         <%= f.text_area :descripcion, :cols => 2000, :rows =>3, :value => "Ajustar a tamaño conveniente" %>
                                   

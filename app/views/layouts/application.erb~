@@ -26,10 +26,9 @@
                 <li><%= link_to 'Inicio', url_for(:inicio, :index) %></li>
 		<li><%= link_to 'Resumenes', url_for(:resumenes, :latest) %></li>
                 
-                <% if iniciar_sesion? %>
-		<li><%= link_to 'Crear Resumen', url_for(:resumenes, :nuevo) %></li>	
+                <% if iniciar_sesion? %>	
                 <li><%= link_to 'Alta Alumno', url_for(:alumnos, :nuevo) %></li>
-		
+		<li><%= link_to 'Crear Resumen', url_for(:resumenes, :nuevo) %></li>
 
 								<% end %>
 								<% if iniciar_sesion? %>	

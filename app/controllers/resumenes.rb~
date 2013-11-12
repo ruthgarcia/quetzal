@@ -20,10 +20,9 @@ Resumenes::App.controllers :resumenes do
   post :crear do
       fecha = params[:resumen][:fecha]
       num_clase = params[:resumen][:num_clase]
-      ausentes = params[:resumen][:ausentes]
       descripcion = params[:resumen][:descripcion]
       
-      if ((fecha == params[:resumen][:fecha]) && (num_clase == params[:resumen][:num_clase]) && (ausentes == params[:resumen][:ausentes]) && (descripcion == params[:resumen][:descripcion]))
+      if ((fecha == params[:resumen][:fecha]) && (num_clase == params[:resumen][:num_clase]) && (descripcion == params[:resumen][:descripcion]))
         @resumen = Resumen.new(params[:resumen])
         if @resumen.save
           flash[:success] = 'Creacion de Resumen Exitoso'

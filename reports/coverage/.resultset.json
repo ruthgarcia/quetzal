@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/mint/quetzal/app/app.rb": [
+      "/home/ruth/Escritorio/quetzal/app/app.rb": [
         1,
         1,
         1,
@@ -68,7 +68,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/models/alumno.rb": [
+      "/home/ruth/Escritorio/quetzal/app/models/alumno.rb": [
         1,
         1,
         null,
@@ -109,7 +109,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/models/resumen.rb": [
+      "/home/ruth/Escritorio/quetzal/app/models/resumen.rb": [
         1,
         1,
         null,
@@ -128,7 +128,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/controllers/alumnos.rb": [
+      "/home/ruth/Escritorio/quetzal/app/controllers/alumnos.rb": [
         1,
         null,
         null,
@@ -178,7 +178,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/controllers/inicio.rb": [
+      "/home/ruth/Escritorio/quetzal/app/controllers/inicio.rb": [
         1,
         null,
         1,
@@ -187,7 +187,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/controllers/resumenes.rb": [
+      "/home/ruth/Escritorio/quetzal/app/controllers/resumenes.rb": [
         1,
         null,
         null,
@@ -227,7 +227,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/controllers/sesiones.rb": [
+      "/home/ruth/Escritorio/quetzal/app/controllers/sesiones.rb": [
         1,
         null,
         1,
@@ -256,7 +256,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/helpers/alumno_helper.rb": [
+      "/home/ruth/Escritorio/quetzal/app/helpers/alumno_helper.rb": [
         null,
         null,
         1,
@@ -265,7 +265,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/helpers/inicio_helper.rb": [
+      "/home/ruth/Escritorio/quetzal/app/helpers/inicio_helper.rb": [
         null,
         null,
         1,
@@ -274,7 +274,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/helpers/resumen_helper.rb": [
+      "/home/ruth/Escritorio/quetzal/app/helpers/resumen_helper.rb": [
         null,
         null,
         1,
@@ -283,7 +283,7 @@
         null,
         null
       ],
-      "/home/mint/quetzal/app/helpers/sesiones_helper.rb": [
+      "/home/ruth/Escritorio/quetzal/app/helpers/sesiones_helper.rb": [
         1,
         null,
         1,
@@ -310,7 +310,7 @@
         null
       ]
     },
-    "timestamp": 1384193750
+    "timestamp": 1384280197
   },
   "Cucumber Features": {
     "coverage": {
@@ -496,6 +496,6 @@
         null
       ]
     },
-    "timestamp": 1384274623
+    "timestamp": 1384280220
   }
 }
