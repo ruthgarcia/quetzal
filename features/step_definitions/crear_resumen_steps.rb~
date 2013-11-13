@@ -21,9 +21,6 @@ end
 Then(/^ver las columnas de los resumenes$/) do
     visit "/resumenes/latest"
      page.should have_content('Fecha')
-     page.should have_content('Clase')
-     page.should have_content('Ausentes')
-     page.should have_content('Resumen')
 end
 
 

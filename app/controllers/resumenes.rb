@@ -17,6 +17,11 @@ Resumenes::App.controllers :resumenes do
     render 'resumenes/nuevo'
   end
 
+ get :ver do
+    @resumen = Resumen.all
+    render 'resumenes/ver'
+  end
+
   post :crear do
       fecha = params[:resumen][:fecha]
       num_clase = params[:resumen][:num_clase]

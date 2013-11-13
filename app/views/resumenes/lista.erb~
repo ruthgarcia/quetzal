@@ -2,10 +2,10 @@
 
 <table class="table table-bordered">
 	<tr>
-		<th> Fecha </th>
-		<th> Clase </th>
-		<th> Ausentes </th>
-		<th> Resumen </th>
+		<th>Fecha</th>
+		<th>Clase</th>
+		<th>Ausentes</th>
+		<th>Resumen</th>
 		
 	</tr>
 	<% @resumenes.each do | resumen | %>
