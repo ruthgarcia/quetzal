@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/ruth/Documentos/quetzal/app/app.rb": [
+      "/home/ruth/quetzal/app/app.rb": [
         1,
         1,
         1,
@@ -12,6 +12,10 @@
         1,
         null,
         1,
+        null,
+        1,
+        null,
+        null,
         null,
         null,
         null,
@@ -68,7 +72,10 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/models/alumno.rb": [
+      "/home/ruth/quetzal/app/models/alumno.rb": [
+        1,
+        1,
+        null,
         1,
         1,
         null,
@@ -77,6 +84,7 @@
         1,
         1,
         1,
+        null,
         null,
         null,
         1,
@@ -109,7 +117,26 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/models/resumen.rb": [
+      "/home/ruth/quetzal/app/models/notificaciones.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/ruth/quetzal/app/models/resumen.rb": [
         1,
         1,
         null,
@@ -118,6 +145,7 @@
         1,
         1,
         1,
+        null,
         null,
         null,
         1,
@@ -128,7 +156,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/controllers/alumnos.rb": [
+      "/home/ruth/quetzal/app/controllers/alumnos.rb": [
         1,
         null,
         null,
@@ -178,7 +206,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/controllers/inicio.rb": [
+      "/home/ruth/quetzal/app/controllers/inicio.rb": [
         1,
         null,
         1,
@@ -187,7 +215,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/controllers/resumenes.rb": [
+      "/home/ruth/quetzal/app/controllers/resumenes.rb": [
         1,
         null,
         null,
@@ -212,8 +240,19 @@
         1,
         null,
         null,
+        null,
+        null,
         1,
         0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
         0,
         0,
         0,
@@ -233,7 +272,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/controllers/sesiones.rb": [
+      "/home/ruth/quetzal/app/controllers/sesiones.rb": [
         1,
         null,
         1,
@@ -262,7 +301,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/helpers/alumno_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/alumno_helper.rb": [
         null,
         null,
         1,
@@ -271,7 +310,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/helpers/inicio_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/inicio_helper.rb": [
         null,
         null,
         1,
@@ -280,7 +319,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/helpers/resumen_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/resumen_helper.rb": [
         null,
         null,
         1,
@@ -289,7 +328,7 @@
         null,
         null
       ],
-      "/home/ruth/Documentos/quetzal/app/helpers/sesiones_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/sesiones_helper.rb": [
         1,
         null,
         1,
@@ -311,16 +350,30 @@
         null,
         1,
         3,
+        null,
+        null,
+        null
+      ],
+      "/home/ruth/quetzal/app/mailers/notificacion.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1384365295
+    "timestamp": 1384753928
   },
   "Cucumber Features": {
     "coverage": {
-      "/home/mint/proyecto/quetzal/app/controllers/alumnos.rb": [
+      "/home/ruth/quetzal/app/controllers/alumnos.rb": [
         1,
         null,
         null,
@@ -370,7 +423,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/controllers/inicio.rb": [
+      "/home/ruth/quetzal/app/controllers/inicio.rb": [
         1,
         null,
         1,
@@ -379,7 +432,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/controllers/resumenes.rb": [
+      "/home/ruth/quetzal/app/controllers/resumenes.rb": [
         1,
         null,
         null,
@@ -404,8 +457,19 @@
         0,
         null,
         null,
+        null,
+        null,
         1,
         2,
+        2,
+        null,
+        null,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
         2,
         2,
         2,
@@ -425,7 +489,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/controllers/sesiones.rb": [
+      "/home/ruth/quetzal/app/controllers/sesiones.rb": [
         1,
         null,
         1,
@@ -454,7 +518,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/helpers/alumno_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/alumno_helper.rb": [
         null,
         null,
         1,
@@ -463,7 +527,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/helpers/inicio_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/inicio_helper.rb": [
         null,
         null,
         1,
@@ -472,7 +536,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/helpers/resumen_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/resumen_helper.rb": [
         null,
         null,
         1,
@@ -481,7 +545,7 @@
         null,
         null
       ],
-      "/home/mint/proyecto/quetzal/app/helpers/sesiones_helper.rb": [
+      "/home/ruth/quetzal/app/helpers/sesiones_helper.rb": [
         1,
         null,
         1,
@@ -503,11 +567,25 @@
         null,
         1,
         27,
+        null,
+        null,
+        null
+      ],
+      "/home/ruth/quetzal/app/mailers/notificacion.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1384633649
+    "timestamp": 1384753953
   }
 }

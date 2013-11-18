@@ -1,0 +1,17 @@
+class JobApplication
+
+	attr_accessor :applicant_email
+	attr_accessor :resumen
+
+	def self.create_for(email, offer)
+		app = Resumenes.new
+		app.applicant_email = email
+		app.job_offer = offer
+		app
+	end
+
+	def process
+    Resumenes::App.deliver(:notificacion, :info_email, self)
+  end
+
+end

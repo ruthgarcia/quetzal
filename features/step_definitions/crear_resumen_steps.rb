@@ -27,3 +27,18 @@ Then(/^ver las columnas de los resumenes$/) do
 end
 
 
+Then(/^deberia recibir un mail con informacion del resumen$/) do
+  archivo_mail = "#{Padrino.root}/tmp/emails"
+  file = File.open("#{archivo_mail}/correo", "r")
+  content = file.read
+  content.include?('Fecha').should be true
+  content.include?('Clase').should be true
+  content.include?('Ausentes').should be true
+  content.include?('Descripcion').should be true
+end
+
+Then(/^con informacion del proximo alumno en subir resumen$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+

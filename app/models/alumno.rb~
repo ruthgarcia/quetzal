@@ -9,7 +9,7 @@ class Alumno
   property :apellido, String
   property :contrasena_encriptada, String
   property :email, String
-  #has n, :resumens
+  has n, :resumens
 
 
   validates_presence_of :nombre
