@@ -1,3 +1,5 @@
+require 'alumno'
+
 class Resumen
   include DataMapper::Resource
 
@@ -6,6 +8,7 @@ class Resumen
   property :num_clase, String
   property :ausentes, String
   property :descripcion, String
+  property :alumno, Alumno
   #belongs_to :alumno
 
 
