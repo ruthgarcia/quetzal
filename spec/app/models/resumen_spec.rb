@@ -11,6 +11,8 @@ describe Resumen do
 		it { should respond_to( :num_clase ) }
 		it { should respond_to( :ausentes) }
 		it { should respond_to( :descripcion ) }
+		it { should respond_to( :owner ) }
+		it { should respond_to( :owner= ) }		
 
 	end
 
@@ -37,15 +39,6 @@ describe Resumen do
 		resumen.num_clase = '02'
 	  	resumen.ausentes = 'Fulanito'
 	  	resumen.valid?.should be_false
-	  end
-
-
-	  it 'Deberia ser true cuando todos los campos son validos' do
-	  	resumen.fecha = '2013-11-06 '
-		resumen.num_clase = '22'
-	  	resumen.ausentes = 'Fulanito'
-	  	resumen.descripcion = 'Buena clase!'
-	  	resumen.valid?.should be_true
 	  end
 
 	end

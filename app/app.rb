@@ -13,6 +13,9 @@ module Resumenes
       :location => "#{Padrino.root}/tmp/emails",
     }
     
+    set :delivery_method, :file => {
+      :location => "#{Padrino.root}/tmp/emails",
+    }
 
     ##
     # Caching support

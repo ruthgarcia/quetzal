@@ -4,7 +4,7 @@
 	<tr>
 		<th> Fecha </th>
 		<th> Clase </th>
-		<th> Ausentes </th>
+		<th> Autor </th>
 		<th> Resumen </th>
 		
 	</tr>
@@ -14,11 +14,12 @@
 		<td>
 			<%= resumen.fecha %>
 		</td>
-		<td>
+		<td>Resumen Clase
 			<%= resumen.num_clase %>
 		</td>
 		<td>
-			<%= resumen.ausentes%>
+			<%= resumen.alumno.nombre%>
+			<%= resumen.alumno.apellido%>
 		</td>
 			
 		<td>

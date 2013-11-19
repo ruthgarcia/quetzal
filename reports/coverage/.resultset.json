@@ -1,7 +1,11 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/app.rb": [
+=======
       "/home/ruth/quetzal/app/app.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         1,
         1,
@@ -16,7 +20,10 @@
         1,
         null,
         null,
+<<<<<<< HEAD
+=======
         null,
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         null,
@@ -72,10 +79,14 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/models/alumno.rb": [
+=======
       "/home/ruth/quetzal/app/models/alumno.rb": [
         1,
         1,
         null,
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         1,
         null,
@@ -84,7 +95,7 @@
         1,
         1,
         1,
-        null,
+        1,
         null,
         null,
         1,
@@ -117,6 +128,9 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/models/resumen.rb": [
+=======
       "/home/ruth/quetzal/app/models/notificaciones.rb": [
         1,
         null,
@@ -137,6 +151,7 @@
         null
       ],
       "/home/ruth/quetzal/app/models/resumen.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         1,
         null,
@@ -145,18 +160,40 @@
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
+        1,
+        0,
+        null,
         null,
         1,
+        0,
+        null,
+        null,
         1,
+        0,
+        null,
+        null,
         1,
-        1,
+        0,
+        0,
+        0,
+        null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/alumnos.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/alumnos.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         null,
@@ -206,7 +243,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/inicio.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/inicio.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
@@ -215,7 +256,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/resumenes.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/resumenes.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         null,
@@ -256,23 +301,21 @@
         0,
         0,
         0,
-        null,
-        0,
-        0,
-        0,
         0,
         0,
         null,
         0,
         0,
-        null,
-        null,
         null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/sesiones.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/sesiones.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
@@ -301,7 +344,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/alumno_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/alumno_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         1,
@@ -310,7 +357,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/inicio_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/inicio_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         1,
@@ -319,7 +370,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/resumen_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/resumen_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         1,
@@ -328,7 +383,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/sesiones_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/sesiones_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
@@ -354,7 +413,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/mailers/notificacion.rb": [
+=======
       "/home/ruth/quetzal/app/mailers/notificacion.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
@@ -369,11 +432,19 @@
         null
       ]
     },
+<<<<<<< HEAD
+    "timestamp": 1384841518
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/home/mint/autor/quetzal/app/controllers/alumnos.rb": [
+=======
     "timestamp": 1384753928
   },
   "Cucumber Features": {
     "coverage": {
       "/home/ruth/quetzal/app/controllers/alumnos.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         null,
@@ -396,43 +467,51 @@
         null,
         null,
         1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        7,
-        1,
-        6,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
         0,
         0,
         null,
         null,
         1,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
         null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/inicio.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/inicio.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
-        2,
+        0,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/resumenes.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/resumenes.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         null,
@@ -472,39 +551,37 @@
         null,
         2,
         2,
-        2,
-        null,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null,
+        0,
         0,
         0,
         null,
-        null,
+        2,
+        2,
         null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/controllers/sesiones.rb": [
+=======
       "/home/ruth/quetzal/app/controllers/sesiones.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
-        1,
-        1,
+        0,
+        0,
         null,
         null,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         0,
         0,
@@ -518,7 +595,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/alumno_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/alumno_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         1,
@@ -527,7 +608,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/inicio_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/inicio_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         1,
@@ -536,7 +621,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/resumen_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/resumen_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         null,
         null,
         1,
@@ -545,7 +634,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/home/mint/autor/quetzal/app/helpers/sesiones_helper.rb": [
+=======
       "/home/ruth/quetzal/app/helpers/sesiones_helper.rb": [
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
         1,
         null,
         1,
@@ -553,7 +646,7 @@
         null,
         null,
         1,
-        27,
+        17,
         null,
         null,
         1,
@@ -566,7 +659,21 @@
         null,
         null,
         1,
-        27,
+        15,
+        null,
+        null,
+        null
+      ],
+      "/home/mint/autor/quetzal/app/mailers/notificacion.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null
@@ -586,6 +693,10 @@
         null
       ]
     },
+<<<<<<< HEAD
+    "timestamp": 1384843550
+=======
     "timestamp": 1384753953
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
   }
 }

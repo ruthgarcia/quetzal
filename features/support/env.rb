@@ -20,10 +20,10 @@ end
 
 DataMapper::Logger.new($stdout, :all)
 DataMapper.auto_migrate!
-alumno = Alumno.create(:email => 'jlpz@unq.com',
-                   :nombre => 'Juan',
-		   :apellido => 'Lopez', 
-                   :contrasena => "Passw0rd!")
+alumno = Alumno.create(:email => 'docente@unq.com',
+                   :nombre => 'Nico',
+		               :apellido => 'Paez', 
+                   :contrasena => "Admin0n!")
 
 ##
 # You can handle all padrino applications using instead:

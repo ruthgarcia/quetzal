@@ -1,4 +1,4 @@
-class Alumno
+class Alumno 
   include DataMapper::Resource
 
   attr_accessor :email
@@ -9,8 +9,12 @@ class Alumno
   property :apellido, String
   property :contrasena_encriptada, String
   property :email, String
+<<<<<<< HEAD
+  has n, :resumens
+=======
   #has n, :resumens
 
+>>>>>>> 9e0688774e5a935871f0ca6db929f601d15d9460
 
   validates_presence_of :nombre
   validates_presence_of :apellido
