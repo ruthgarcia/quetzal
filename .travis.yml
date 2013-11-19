@@ -3,3 +3,11 @@ version: 1.9.3
 before_script:
   - "sh -e /etc/init.d/xvfb start"
 script: PADRINO_ENV=travis bundle exec rake
+
+deploy:
+  provider: heroku
+  api_key: 55661539-02c7-42bc-b248-04b6fae58e1e
+  app: quetzal-testing
+  on:
+    repo: ruthgarcia/quetzal
+    branch: master
