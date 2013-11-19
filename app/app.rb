@@ -8,10 +8,6 @@ module Resumenes
     sprockets :minify => (Padrino.env == :production)
 
     enable :sessions
-
-    set :delivery_method, :file => {
-      :location => "#{Padrino.root}/tmp/emails",
-    }
     
     set :delivery_method, :file => {
       :location => "#{Padrino.root}/tmp/emails",
