@@ -6,6 +6,7 @@ class Resumen
   property :num_clase, String
   property :ausentes, String
   property :descripcion, String
+  property :prox_autor, String
   belongs_to :alumno
 
   validates_presence_of :fecha

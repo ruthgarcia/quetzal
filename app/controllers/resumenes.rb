@@ -26,7 +26,7 @@ Resumenes::App.controllers :resumenes do
         @resumen = Resumen.new(params[:resumen])
         @resumen.owner = alumno_actual
         if @resumen.save
-          flash[:success] = 'Creacion de Resumen Exitoso'
+          flash[:success] = 'Creacion de Resumen Exitoso y Mail enviado'
           @resumen.enviar_email(@resumen)
           redirect '/'
         else

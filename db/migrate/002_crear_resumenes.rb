@@ -6,7 +6,7 @@ migration 2, :crear_resumenes do
       column :num_clase, DataMapper::Property::String, :length => 255
       column :ausentes, DataMapper::Property::String, :length => 255
       column :descripcion, DataMapper::Property::Text
-    end
+     end
   end
 
   down do

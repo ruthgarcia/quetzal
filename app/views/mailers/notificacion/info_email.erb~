@@ -1,11 +1,13 @@
 Resumenes
 =================
 
-Se creo un nuevo resumen: 
+Tu tienes un nuevo resumen:
 
+* Autor: <%= resumen.alumno.nombre %>,<%= resumen.alumno.apellido %>
 * Fecha: <%= resumen.fecha %>
 * Clase: <%= resumen.num_clase %>
 * Ausentes: <%= resumen.ausentes %>
-* Descripcion: <%= resumen.descripcion %> 
+* Descripcion: <%= resumen.descripcion %>
 
-
+*El proximo autor es: <%= resumen.prox_autor %>
+Saludos!

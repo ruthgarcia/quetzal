@@ -38,6 +38,9 @@ Then(/^deberia recibir un mail con informacion del resumen$/) do
  end
 
 Then(/^con informacion del proximo alumno en subir resumen$/) do
-  pending # express the regexp above with the code you wish you had
+   archivo_mail = "#{Padrino.root}/tmp/emails" 
+   file = File.open("#{archivo_mail}/docente@unq.com", "r") 
+   content = file.read 
+   content.include?('El proximo autor es').should be true  
 end
 
