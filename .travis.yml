@@ -6,8 +6,8 @@ script: PADRINO_ENV=travis bundle exec rake
 
 deploy:
   provider: heroku
-  api_key: 55661539-02c7-42bc-b248-04b6fae58e1e
-  app: quetzal-testing
+  api_key: 416434ad-2488-4829-b4a0-ca7d43d84915
+  app: quetzal-prueba
   on:
     repo: ruthgarcia/quetzal
     branch: master
