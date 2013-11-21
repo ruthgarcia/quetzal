@@ -1,7 +1,7 @@
 Date: Wed, 20 Nov 2013 22:50:02 -0300
 From: no_reply@resumenes.com
-To: docente@unq.com
-Message-ID: <528d66ca7c299_ad4425d010213e6@ubuntu.mail>
+To: ruth@unq.com
+Message-ID: <528d66ca868ab_ad4425d0102144d@ubuntu.mail>
 Subject: Resumenes: Nuevo Resumen
 Mime-Version: 1.0
 Content-Type: text/plain;
